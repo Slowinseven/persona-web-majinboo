@@ -1,0 +1,71 @@
+body{
+    background: pink;
+}
+
+h1{
+    text-align: center;
+    color: palevioletred;
+    box-shadow: rgba(224, 159, 224, 0.2) 0px 7px 29px 0px;
+}
+
+.container{
+    background: white;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p{
+    text-align: center;
+}
+
+.container-botao button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background: pink;
+    text-decoration:none;
+    color: palevioletred;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 5px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.curiosidades li{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.curiosidades b{
+    color: palevioletred;
+}
+
+
+
+
+
